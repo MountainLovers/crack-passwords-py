@@ -1,0 +1,7 @@
+# node.js
+node_modules/
+
+# datasets
+datasets/harden/*
+datasets/hash/*
+datasets/plaintext/*

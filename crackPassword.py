@@ -10,8 +10,8 @@ def chunks(LIST, NUMBER_OF_PARTS):
         # Create an index range for l of n items:
         yield LIST[i:i+NUMBER_OF_PARTS]
 
-hashed_password_file_name = '1MillionPassword_hashed.txt'
-hashed_guess_words_file_name = 'english_hashed.txt'
+hashed_password_file_name = './datasets/hash/myspace_harden_hashed.txt'
+hashed_guess_words_file_name = './datasets/hash/english_hashed.txt'
 
 no_of_cpu = multiprocessing.cpu_count()
 

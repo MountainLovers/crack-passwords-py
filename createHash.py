@@ -3,8 +3,8 @@
 import hashlib
 
 # Names of files
-words_file_name = "1MillionPassword.txt" #input file name
-hashed_words_file_name = "1MillionPassword_hashed.txt" #output file name
+words_file_name = "./datasets/plaintext/myspace.txt" #input file name
+hashed_words_file_name = "./datasets/hash/myspace_hashed.txt" #output file name
 # Variable
 hash_type = "md5"
 
